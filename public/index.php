@@ -12,6 +12,13 @@
 // [ 应用入口文件 ]
 namespace think;
 
+define('IAIO_ROOT', __DIR__ . '/../');
+define('IAIO_CORE', IAIO_ROOT . 'core/');
+define('IAIO_PATH', IAIO_CORE . 'iaio/');
+define('VENDOR_PATH', IAIO_CORE . 'vendor/');
+define('EXTEND_PATH', IAIO_CORE . 'extend/');
+define('TEMPLATE_PATH', IAIO_ROOT . 'template/');
+
 // 加载基础文件
 require __DIR__ . '/../core/thinkphp/base.php';
 
